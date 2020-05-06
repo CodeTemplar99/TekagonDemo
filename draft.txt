@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CorSite</title>
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./icons/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+    <link href="./Css/styled.css" rel="stylesheet" type="text/css">
+    <script defer src="./js/spine.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between flex-wrap">
+        <div class="container bg-white fixed-top p-5">
+            <div>
+                <a class="navbar-brand font-weight-bolder" href="#">WAFT<span class="small ml-1">Technologies</span></a>
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation" onclick="showSideBar()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item mx-4 active">
+                            <a class="nav-link" href="#">Home <span><i class="fa fa-home tab-icons ml-1"></i></span>
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#">Products<span><i
+                                        class="fa fa-cubes tab-icons ml-1"></i></span></a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#">Pricing <span><i
+                                        class="fa fa-dollar-sign tab-icons ml-1"></i></span></a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#">Contact Us <span><i
+                                        class="fa fa-home tab-icons ml-1"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container  p-1" id="space">
+
+        <div class="jumbotron bg-transparent mb-0 p-1 d-flex justify-content-between align-items-center flex-wrap">
+            <div class="jumbotron col-lg-5 bg-transparent m-0">
+                <p class="text-intro">COSTUMER SATISFACTION</p>
+                <p class="lead big-text my-lg-4"><span class="strip">Aesthetic a</span><span class="strip-end">nd
+                        Functional</span></p>
+                <p>WAFT Technologies produces innovative, sustainable and ultra-low power basic electronic products
+                    which are ideal for residential customers, businesses, government and schools.</p>
+                <button class="btn btn-info shadow-lg border-0 my-lg-4">Get started</button>
+                <p class="mt-2">Have a question? <span class="strip font-weight-bold">Conta</span><span
+                        class="strip-end font-weight-bold">ct Us</span></p>
+
+            </div>
+
+            <div class="slide-con" id="slide">
+                <!-- <img class="img-fluid image-responsive" src="./images/ms1.svg"> -->
+                <img class="img-fluid image-responsive" src="./images/undraw_privacy_protection_nlwy.png">
+                <img class="img-fluid image-responsive" src="./images/undraw_selecting_1lx3.png">
+                <img class="img-fluid image-responsive" src="./images/undraw_social_girl_562b.png">
+                <img class="img-fluid image-responsive" src="./images/undraw_solution_mindset_34bi.png">
+            </div>
+        </div>
+
+
+
+        <div class="jumbotron bg-transparent m-0" id="s2">
+            <center>
+                <div class="hrr-5 hidden-xs"></div>
+            </center>
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <p>WITH YOU IN MIND</p>
+                <p class="lead big-text">Enjoy Products That Are...</p>
+            </div>
+
+            <div class="jumbotron mb-3 p-5 bg-transparent justify-content-between s2-list-con">
+                <div class="jumbotron p-5 bg-transparent box">
+                    <div class="icon-con mr-lg-2"><i class="fa fa-rocket"></i></div>
+                    <div class="jumbotron p-2 bg-transparent">
+                        <p class="lead icon-title"><span class="strip">inno</span><span class="strip-end">vative.</span>
+                        </p>
+                        <p class="m-0">We have put into the production process of these products holistic thoughts
+                            that drive innovation
+                        </p>
+                    </div>
+                </div>
+                <div class="jumbotron p-5 bg-transparent box">
+                    <div class="icon-con mr-lg-2"><i class="fa fa-shield-alt"></i></div>
+                    <div class="jumbotron p-2 bg-transparent">
+                        <p class="lead icon-title"><span class="strip">sustai</span><span
+                                class="strip-end">nable.</span></p>
+                        <p class="m-0">Our products are not only sustainable but also durable and long lasting
+                        </p>
+                    </div>
+                </div>
+                <div class="jumbotron p-5 bg-transparent box">
+                    <div class="icon-con mr-lg-2"><i class="fa fa-plug"></i></div>
+                    <div class="jumbotron p-2 bg-transparent">
+                        <p class="lead icon-title"><span class="strip">ultra-l</span><span class="strip-end">ow
+                                power.</span></p>
+                        <p class="m-0">In order to help save energy and make it more accessible our products are built
+                            to
+                            consume less electricity
+                        </p>
+                    </div>
+                </div>
+                <div class="jumbotron p-5 bg-transparent box">
+                    <div class="icon-con mr-lg-2"><i class="fa fa-lightbulb"></i></div>
+                    <div class="jumbotron p-2 bg-transparent">
+                        <p class="lead icon-title"><span class="strip">id</span><span class="strip-end">eal.</span></p>
+                        <p class="m-0">Our product are built for ease-of-use which makes it ideal for residential
+                            customers, businesses, government and schools
+                        </p>
+                    </div>
+                </div>
+                <div class="jumbotron p-5 bg-transparent box">
+                    <div class="icon-con mr-lg-2"><i class="fa fa-magic"></i></div>
+                    <div class="jumbotron p-2 bg-transparent">
+                        <p class="lead icon-title"><span class="strip">Aest</span><span class="strip-end">hetic.</span>
+                        </p>
+                        <p class="m-0">Products build to look ergonomic, be ergonomic and satisfy beauty demand
+                        </p>
+                    </div>
+                </div>
+
+                <div class="jumbotron p-5 bg-transparent box">
+                    <div class="icon-con mr-lg-2"><i class="fa fa-cogs"></i></div>
+                    <div class="jumbotron p-2 bg-transparent">
+                        <p class="lead icon-title"><span class="strip">Func</span><span class="strip-end">tional.</span>
+                        </p>
+                        <p class="m-0">Design is not how it looks, most times it's also how it works!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="jumbotron bg-info p-5 mb-5 d-flex justify-content-between align-items-center con-stripped">
+                <div class="col-lg-5">
+                    <p class="mb-0 text-white big-text">Our Partners.</p>
+                    <p class="mb-4 mt-2 text-white">
+                        Some of the best businesses in Nigeria and outside trust our ability to engage their customers
+                        daily.
+                    </p>
+                    <button class="btn btn-white shadow-lg border-0 font-weight-bold">Get started</button>
+
+                </div>
+                <div class="jumbotron col-lg-7 p-1 bg-white d-flex justify-content-start partner-con">
+                    <img class="img-fluid image-responsive " src="./images/cherry-blossom-client-logo-jumia.jpg"><img
+                        class="img-fluid image-responsive " src="./images/cherry-blossom-client-logo-shoprite.jpg">
+                    <img class="img-fluid image-responsive " src="./images/cherry-blossom-client-logo-konga.jpg">
+                    <img class="img-fluid image-responsive " src="./images/5a1c2cb0f65d84088faf13c2.png">
+                </div>
+
+            </div>
+
+
+            <div class="jumbotron bg-transparent mt-5 d-flex justify-content-lg-around brief-super-con">
+                <div class="col-lg-3 brief-cons">
+                    <p class="mb-0"><a class="navbar-brand font-weight-bolder" href="#">WAFT<span
+                                class="small ml-1">Technologies</span></a></p>
+                    <p class="mb-4 mt-2">We produce innovative, sustainable and ultra-low power basic
+                        electronic products
+                        which are ideal for residential customers, businesses, government and schools.</p>
+
+
+                </div>
+
+                <div class="col-lg-2 brief-cons">
+                    <p class="p-1 py-0">COMPANY</p>
+                    <div class="list-group">
+
+                        <a href="#" class="list-group-item bg-transparent border-0 p-1">About COMPANY</a>
+                        <a href="#" class="list-group-item bg-transparent border-0 p-1">Contact us</a>
+                        <a href="#" class="list-group-item bg-transparent border-0 p-1">Terms of service</a>
+                        <a href="#" class="list-group-item bg-transparent border-0 p-1">Privacy Policies</a>
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-2 brief-cons">
+                    <p>ONIPANU, LAG</p>
+                    <p>
+                        150 Ikorodu Road, Onipanu,
+                        Lagos, Nigeria
+
+                        234-090123456789
+
+                        sales@Company.com</p>
+
+
+                </div>
+                <div class="col-lg-2 brief-cons">
+                    <p>ADDRESS, LAG</p>
+                    <p>150 Ikorodu Road, Onipanu,
+                        Lagos, Nigeria
+
+                        234-090123456789
+
+                        sales@Company.com</p>
+
+
+                </div>
+            </div>
+
+            <div class="jumbotron bg-transparent col-lg-12 m-0">
+                <center>
+                    <div class="hrr-5 hidden-xs"></div>
+                </center>
+
+                <p class="text-center small">
+                    © 2020 waft technologies
+                    Africa,<br>
+                    waft technologies is a registered trademark of waft technologies.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+/* root{
+--primary-color: linear-gradient(to left, #302b48, #264A9D);
+} */
+
+body{
+background-color: white;
+margin: 0px;
+font-size: 100%;
+width: 100%;
+overflow-x: hidden;
+}
+
+.fixed-top{
+    width: 100% !important  ;
+    display:flex;
+    justify-content: space-between !important;
+}
+
+.navbar-brand{
+    font-size: 190%;
+}
+
+#space{
+    position: relative;
+    top: 13vh;
+}
+
+.text-intro{
+    font-size: 100%;
+}
+
+.big-text{
+    font-size: 180%;
+    font-weight: bold;
+}
+.strip{
+    color: #3d558f;
+}
+.strip-end{
+    color:#4294b4;
+}
+
+.slide-con{
+    height: 50vh;
+    width: 75vh;
+    overflow: hidden;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+
+
+.image-responsive{
+    float: right;
+    /* border: 1px solid red; */    
+    width: initial;
+    height: inherit;
+            object-fit: fill;
+}
+ 
+
+.hrr-5 {
+    border: 0;
+    height: 15px;
+    margin-bottom: 50px !important;
+    position: relative;
+    background: radial-gradient(ellipse at bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 70%);
+    width: 50% !important;
+    margin-top: -25px !important;
+}
+.s2-list-con{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 3;
+}
+
+.box{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    flex: 50%;
+}
+
+/* .box p{
+    border: 1px solid red;
+} */
+
+.fa{
+    font-size: 240%;
+    color: #3d558f;
+}
+
+.tab-icons{
+    font-size: 120%;
+}
+.nav-item{
+    border-bottom: 2px dotted white;
+    transition: border-bottom 0.60s;
+}
+.nav-item:hover{
+    border-bottom: 5px dotted #3d558f;
+}
+
+.icon-con{
+    animation: bounce 3.5s ease-out 0s infinite;
+}
+
+@-webkit-keyframes bounce {
+    0% { transform: translateY(-5px) }
+    50% { transform: translateY(10px) }
+    100% { transform: translateY(-5px) }
+}
+
+@keyframes bounce {
+    0% { transform: translateY(-5px);
+    text-shadow: 3px 3px 6px black; }
+    50% { transform: translateY(10px);
+    text-shadow: none; }
+    100% { transform: translateY(-5px);
+    text-shadow: 3px 3px 6px black; }
+}
+
+
+.icon-title{
+    font-weight: bold;
+}
+
+.btn{
+    color: white;
+    background: linear-gradient(to left, #4294b4, rgb(61, 85, 143));
+    border: 1px solid transparent!important;
+    width: 20vh;
+}
+
+.btn-white{
+    color: black;
+    background: white;
+    border: 1px solid transparent!important;
+}
+.btn:hover, .btn-white:hover{
+    color: white;
+    background: #4294b4;
+    border: 1px solid white !important;
+    box-shadow: none !important;
+}
+.con-stripped{
+    background: linear-gradient(to left, #4294b4, rgb(61, 85, 143));
+}
+
+.partner-con .image-responsive{
+    width: 17vh;
+    height: 14vh;
+    /* filter: grayscale(1); */
+}
+
+.brief-cons .list-group a{
+    color: inherit;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:768px){
+    .brief-cons{
+        width: 30vh !important;
+    }
+}
+
+
+@media screen and (max-width:425px){
+    .image-responsive{
+        display: none;
+    }
+
+    .fa{
+        font-size: 380%;
+    }
+    .tab-icons{
+    font-size: 120%;
+}
+
+.nav-item{
+    margin: 0px !important;
+}
+
+.s2-list-con{
+    padding: 0px !important;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    margin: 10px !important;
+    padding: 5px !important;
+    /* border: 1px solid red; */
+}
+
+    .brief-super-con{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brief-cons{
+       /* border: 1px solid red; */
+        width: 100% !important;
+        margin-bottom: 3vh;
+    }
+}
